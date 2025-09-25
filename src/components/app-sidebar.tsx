@@ -52,7 +52,7 @@ export function AppSidebar() {
                         `flex items-center justify-between px-4 py-2 text-sm rounded-md transition-colors ${
                           isActive 
                             ? 'bg-primary text-primary-foreground font-medium' 
-                            : 'text-foreground hover:bg-accent hover:text-accent-foreground'
+                            : 'text-sidebar-foreground hover:bg-sidebar-accent hover:text-sidebar-accent-foreground'
                         }`
                       }
                     >
